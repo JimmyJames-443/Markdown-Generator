@@ -11,7 +11,7 @@ const rl = readline.createInterface({
 
 const askQuestion = (query) => new Promise((resolve) => rl.question(query, resolve));
 
-// Helper to collect multi-line input until user types "END"
+
 async function getMultiLineInput(promptMessage) {
   console.log(promptMessage);
   let result = [];
