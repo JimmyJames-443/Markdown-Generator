@@ -1,0 +1,7 @@
+{
+  "name": "md-craft",
+  "version": "1.0.0",
+  "bin": {
+    "md-craft": "./md-craft.js"
+  }
+}
